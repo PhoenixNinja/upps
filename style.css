@@ -1,9 +1,10 @@
 #title {
-    background-color: #212121;
+    background-color:  #ff4c68;
     color: white;
 }
 .main {
     text-align: center;
+    margin-top: 200px;
 }
 h2 {
     margin: 120px auto 20px; 
@@ -12,7 +13,7 @@ h1 {
     line-height: 1.5;
     font-size: 5rem;
 }
-h3 {
+#title h3 {
     padding-bottom: 120px;
 }
 .navbar-brand {
@@ -23,6 +24,26 @@ h3 {
     padding: 0 20px 0;
 }
 .icon {
-    font-size: 20rem;
+    font-size: 30rem;
     text-align: center;
+}
+#feature {
+    text-align: center;
+    margin: 20px 120px 0px; ;
+}
+.feature-box {
+    padding:40px 50px 40px;
+}
+.icon2 {
+    color : #ff4c68;
+    padding-bottom: 30px;
+}
+.icon2:hover {
+    color : #f83653;
+}
+.feature-box h3 {
+    font-size: 2.5rem;
+} 
+.feature-box p {
+    color : #555555;
 }
