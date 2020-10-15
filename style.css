@@ -33,10 +33,10 @@ h1 {
 }
 #feature {
     text-align: center;
-    margin: 20px 120px 0px; ;
+    margin: 20px 60px 0px; ;
 }
 .feature-box {
-    padding:40px 50px 40px;
+    padding:3% 2% 3%;
 }
 .icon2 {
     color : #ff4c68;
@@ -50,4 +50,5 @@ h1 {
 } 
 .feature-box p {
     color : #555555;
+    text-align: justify;
 }
