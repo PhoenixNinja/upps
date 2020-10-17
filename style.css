@@ -1,9 +1,11 @@
-/* Title Section  */
 body {
     text-align: center;
 }
+
+/* Title Section  */
+
 #title {
-  background-color: #ff4c68;
+  background-color: #49eb17d5;
   color: white;
 }
 .mybtn {
@@ -41,11 +43,11 @@ h1 {
   padding: 3% 2% 3%;
 }
 .icon2 {
-  color: #ff4c68;
+  color: #49eb17d5;
   padding-bottom: 30px;
 }
 .icon2:hover {
-  color: #f83653;
+  color: #2fb307d8;
 }
 .feature-box h3 {
   font-size: 2.5rem;
@@ -69,7 +71,7 @@ h1 {
 footer i {
   font-size: 1.5rem;
   padding: 20px;
-  color: #f83653;
+  color: #49eb17d5;
 }
 
 /* Media Query Section  */
