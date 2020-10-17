@@ -1,102 +1,111 @@
+/* Title Section  */
+
 #title {
-    background-color:  #ff4c68;
-    color: white;
+  background-color: #ff4c68;
+  color: white;
 }
 .mybtn {
-    background-color : white;
-    height : 20px;
-    width  : 30px;
+  background-color: white;
+  height: 20px;
+  width: 30px;
 }
 .main {
-    text-align: center;
+  text-align: center;
 }
 #title h2 {
-    margin: 120px auto 20px; 
+  margin: 120px auto 20px;
 }
 h1 {
-    line-height: 1.5;
-    font-size: 5em;
+  line-height: 1.5;
+  font-size: 5em;
 }
 #title h3 {
-    padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 .navbar-brand {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 .nav-item {
-    font-size : 16px;
-    padding: 0 20px 0;
+  font-size: 16px;
+  padding: 0 20px 0;
 }
 .icon {
-    margin-top : auto;
-    font-size: 15em;
-    text-align: center;
+  margin-top: auto;
+  font-size: 15em;
+  text-align: center;
 }
+
+/* Feature Section   */
 #feature {
-    text-align: center;
-    margin: 20px 60px 0px; ;
+  text-align: center;
+  margin: 20px 60px 0px;
 }
 .feature-box {
-    padding:3% 2% 3%;
+  padding: 3% 2% 3%;
 }
 .icon2 {
-    color : #ff4c68;
-    padding-bottom: 30px;
+  color: #ff4c68;
+  padding-bottom: 30px;
 }
 .icon2:hover {
-    color : #f83653;
+  color: #f83653;
 }
 .feature-box h3 {
-    font-size: 2.5rem;
-} 
-.feature-box p {
-    color : #555555;
-    text-align: justify;
+  font-size: 2.5rem;
 }
+.feature-box p {
+  color: #555555;
+  text-align: justify;
+}
+/* Photos Section  */
+
 #photos-section {
-    background-color:  #ff4c68;
-    text-align: center;
-    height: min-content;
+  background-color: #ff4c68;
+  text-align: center;
+  height: min-content;
 }
 .photos-link {
-    color: white;
-    font-size: 2.5rem;
-    text-decoration: underline;
+  color: white;
+  font-size: 2.5rem;
+  text-decoration: underline;
 }
 .photos-link:hover {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
 .responsive {
-    width : 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-@media (min-width : 900px)
-{
-    .responsive {
-        width: 50%;
-    }
-}
-@media (max-width : 900px)
-{
-    #title h2 {
-        margin-top: 40px;
-    }
-    #title h3 {
-        padding-bottom: 20px;
-    }
-    h1 {
-        font-size: 3em;
-    }
-    .icon {
-        margin-top: 10px;
-        font-size: 10em;
-    }
-}
+/* Footer Section  */
+
 footer {
- text-align: center;
+  text-align: center;
 }
 footer i {
-    font-size: 1.5rem;
-    padding: 20px;
-    color: #f83653;
+  font-size: 1.5rem;
+  padding: 20px;
+  color: #f83653;
+}
+
+/* Media Query Section  */
+
+@media (min-width: 900px) {
+  .responsive {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  #title h2 {
+    margin-top: 40px;
+  }
+  #title h3 {
+    padding-bottom: 20px;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .icon {
+    margin-top: 10px;
+    font-size: 10em;
+  }
 }
