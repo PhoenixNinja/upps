@@ -34,8 +34,8 @@ h1 {
   padding: 0 20px 0;
 }
 .icon {
-  margin-top: auto;
-  font-size: 15em;
+  padding: 0;
+  margin: 0;
 }
 
 /* Feature Section   */
@@ -62,7 +62,7 @@ h1 {
 /* Photos Section  */
 
 #photos-section {
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .responsive {
   width: 100%;
@@ -79,11 +79,11 @@ footer i {
 
 /* Media Query Section  */
 
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
   #photos {
       margin : 1% 21% 2%;
   }
-}
+} */
 @media (max-width: 900px) {
   #title h2 {
       font-size: 1.7rem;
