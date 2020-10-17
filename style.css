@@ -8,6 +8,9 @@ body {
   background-color: rgb(255, 76, 104);
   color: white;
 }
+.nav-item {
+  text-align: justify;
+}
 .mybtn {
   background-color: white;
   height: 20px;
