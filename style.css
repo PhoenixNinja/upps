@@ -57,9 +57,9 @@ h1 {
 #photos-section {
     background-color:  #ff4c68;
     text-align: center;
+    height: min-content;
 }
 .photo {
-    margin : auto;
 }
 .photos-link {
     color: white;
@@ -72,4 +72,18 @@ h1 {
 .responsive {
     width : 100%;
     height: auto;
+}
+@media (min-width : 900px)
+{
+    .responsive {
+        width: 50%;
+    }
+}
+footer {
+ text-align: center;
+}
+footer i {
+    font-size: 1.5rem;
+    padding: 20px;
+    color: #f83653;
 }
