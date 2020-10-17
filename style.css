@@ -96,16 +96,18 @@ footer i {
 }
 @media (max-width: 900px) {
   #title h2 {
+      font-size: 1.3rem;
     margin-top: 40px;
   }
   #title h3 {
+      font-size: 1.3rem;
     padding-bottom: 20px;
   }
   h1 {
-    font-size: 3em;
+    font-size: 4em;
   }
   .icon {
     margin-top: 10px;
-    font-size: 10em;
+    font-size: 13em;
   }
 }
