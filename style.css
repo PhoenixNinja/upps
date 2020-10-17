@@ -4,14 +4,14 @@
 }
 .mybtn {
     background-color : white;
-        height : 20px;
-        width  : 30px;
+    height : 20px;
+    width  : 30px;
 }
 .main {
     text-align: center;
-    margin-top: 200px;
+    margin-top: auto;
 }
-h2 {
+#title h2 {
     margin: 120px auto 20px; 
 }
 h1 {
@@ -29,7 +29,7 @@ h1 {
     padding: 0 20px 0;
 }
 .icon {
-    margin-top : 100px;
+    margin-top : auto;
     font-size: 15em;
     text-align: center;
 }
@@ -53,4 +53,24 @@ h1 {
 .feature-box p {
     color : #555555;
     text-align: justify;
+}
+#photos-section {
+    background-color:  #ff4c68;
+    padding : 20px;
+    text-align: center;
+}
+.photo {
+    margin : auto;
+}
+.photos-link {
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.photos-link:hover {
+    color: blanchedalmond;
+}
+.responsive {
+    width : 100%;
+    height: auto;
 }
